@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Mercedes MV">
+    <meta name="description" content="Port">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Titulo -->
+    <title>DANONE</title>
+
+     <!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="image/danoneLogoV1.png">
+
+     <!-- CSS -->
+     <link href="style.css" rel="stylesheet">
+     <link href="carr.css" rel="stylesheet">
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+   </head>
+  
+   <body>
+   
+     <!-- Barra de navegacion -->
+     <header class="header">
+        <div class="logo">
+           <img src="image/danoneLogoV3.png" alt="Logo de la marca">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CALORÍAS DIARIAS</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">PERFIL</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="#"><button>CONTACTO</button></a>
+
+        <a onclick="openNav()" class="menu" href="#"><button>MENÚ</button></a>
+
+        <div id="mobile-menu" class="overlay">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="#">HOME</a>
+                <a href="#">CALORIAS DIARIAS</a>
+                <a href="#">PRODUCTOS</a>
+                <a href="#">PERFIL</a>
+                <a href="#">CONTACTO</a>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!--Carrusel de imágenes-->
+        <body>
+        <div class="carrusel">
+           <div class="carrusel-items">
+              <div class="carrusel-item">  
+<!--"imagen 1"--> <img src="image/danoneLogoV1.png" alt="">
+              </div>
+              <div class="carrusel-item">  
+<!--"imagen 2"--> <img src="image/danoninoLogo.png" alt="">    
+              </div>
+              <div class="carrusel-item">  
+<!--"imagen 3"--> <img src="image/danyLogo.jpg" alt="">    
+              </div>        
+              <div class="carrusel-item">  
+<!--"imagen 4"--> <img src="image/danetteLogoDos.png" alt="">    
+              </div>
+              <div class="carrusel-item">  
+<!--"imagen 5"--> <img src="image/activiaLogo.png" alt="">    
+              </div>
+              <div class="carrusel-item">  
+<!--"imagen 6"-->  <img src="image/oikosLogo.jpg" alt="">    
+                </div>
+           </div>
+        </div>
+
+        <!--Barra de Búsqueda-->
+        <div class="container-hero">
+          <div class="container hero">
+            <div class="customer-support">
+              <i class="fa-solid fa-headset"></i>
+              <div class="content-customer-support">
+                <span class="text">Barra de Búsqueda</span>
+              </div>
+            </div> 
+            
+            <form class="search-form">
+          <input type="search" placeholder="Buscar..." />
+          <button class="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <!--Sección Uno-->
+        <section>
+          <main class="main-content">
+            <section class="container container-features">
+              <div class="card-feature">
+                 <div class="feature-content">   
+                  <div class="image-icon">
+                  </div><span>Cónocenos</span>
+                    <a href="https://www.danone.com/" target="_blank" rel="noopener noreferrer">
+                   <p>Danone en el mundo</p></a>            
+                 </div>
+              </div>
+              <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                 <div class="feature-content">
+                  <span>Impacto</span>
+                  <a href="https://www.grupodanone.com.mx/impacto/one-planet.aspx" target="_blank" rel="noopener noreferrer">
+                   <p>One Planet</p></a>
+                 </div>
+              </div>
+              <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                 <div class="feature-content">
+                  <span>Integridad Danone</span>
+                   <a href="https://www.grupodanone.com.mx/integridad-danone/integridad-corporativa.aspx" target="_blank" rel="noopener noreferrer">
+                    <p>Integridad corporativa</p></a>
+                 </div>
+              </div>
+              <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                 <div class="feature-content">
+                  <span>Instituto Danonea</span>
+                    <a href="https://www.grupodanone.com.mx/instituto-danone/que-hacemos.aspx" target="_blank" rel="noopener noreferrer">
+                     <p>Misión</p></a>
+                 </div>
+              </div>
+        </section>
+
+        <!--Sección Categorias/Marcas-->
+        <section class="container top-categories">
+          <h1 class="heading-1">MARCAS</h1>
+          <div class="container-categories">
+            <div class="card-category category-danone">
+              <p>Danone essencial dairy</p>
+              <a href="https://www.grupodanone.com.mx/marcas/danone/danone-essential-dairy.aspx" target="_blank" rel="noopener noreferrer">
+              <span>Ver más</span></a>
+            </div>
+            <div class="card-category category-bonafont">
+              <p>Bonafont</p>
+              <a href="https://www.grupodanone.com.mx/marcas/bonafont/agua-natural.aspx" target="_blank" rel="noopener noreferrer">
+              <span>Ver más</span></a>
+            </div>
+            <div class="card-category category-silk">
+              <p>Silk</p>
+              <a href="https://www.grupodanone.com.mx/marcas/silk/silk.aspx" target="_blank" rel="noopener noreferrer">
+              <span>Ver más</span></a>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion  Recetas-->
+        <section class="container-recetario">
+          <h1 class="heading-1">Recetas</h1>
+          <div class="wrap">
+            <div class="tarjeta-wrap">
+              <div class="tarjeta">
+                <div class="adelante card1"></div>
+                <div class="atras">
+                  <a href="image/receta_lava_cake.pdf" target="_blank" rel="noopener noreferrer">
+                  <p>RECETA LAVA CAKE</p></a>
+                </div>
+              </div>
+            </div>
+            <div class="tarjeta-wrap">
+              <div class="tarjeta">
+                <div class="adelante card2"></div>
+                <div class="atras">
+                  <a href="https://www.grupodanone.com.mx/media/272999/recetario.pdf" target="_blank" rel="noopener noreferrer">
+                    <p>RECETARIO DANETTE-OIKOS </p></a>
+                </div>
+              </div>
+            </div>
+            <div class="tarjeta-wrap">
+              <div class="tarjeta">
+                <div class="adelante card3"></div>
+                <div class="atras">
+                  <a href="image/receta_tartaletas.pdf" target="_blank" rel="noopener noreferrer">
+                  <p>RECETA DE TARTALETAS DE VAINILLA</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+        </section>
+      </section>
+
+ <!-- Pie de pagina (footer) -->
+ <footer>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+      <div class="logo">
+        <img src="image/danoneLogoV1.png" alt="Logo de la marca">
+     </div>
+
+        <p class="footer-links">
+            <a href="#">TERMINOS Y CONDICIONES</a>
+            |
+            <a href="#">AVISO DE PRIVACIDAD</a>
+            |
+            <a href="#">PROMOCIONES</a>
+            |
+            <a href="#">CONTACTO</a>
+        </p>
+
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>DANONE DE MÉXICO 2023</span>
+                DERECHOS RECERVADOS</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p>DANONE.COM</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            <strong>DANONE</strong> Bienvenido al sitio web de Grupo Danone México. Conoce nuestra historia y las marcas que integran un mismo Grupo.
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/SomosDanone"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/somosdanone/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/danone/"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+
+<div class="copyright-container">
+    <span class="copyright">Copyright 2023, MercedesMV</span>
+</div>
+</footer>
+      <script src="nav.js"></script>
+      <script src="carr.js"></script>
+
+    </body>
+  </html>
