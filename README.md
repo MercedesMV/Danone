@@ -6,11 +6,11 @@ Danone👩‍💻🔥
 
 ## ÍNDICE
 *[ ✨1. Intro](https://github.com/MercedesMV/Danone/blob/main/README.md#intro)📚
-*[ ✨2. Qué construí] ()⚒
-*[ ✨3. Objetivo del proyecto]()📈
-*[ ✨4. Background del proyecto]()📚
-*[ ✨5. Usage]()⚒
-*[ ✨6. Toma de deciciones]()⚒
+*[ ✨2. Qué construí](https://github.com/MercedesMV/Danone#qu%C3%A9-constru%C3%AD)⚒
+*[ ✨3. Objetivo del proyecto](https://github.com/MercedesMV/Danone#objetivo-del-proyecto)📈
+*[ ✨4. Background del proyecto](https://github.com/MercedesMV/Danone#background-del-proyecto)📚
+*[ ✨5. Usage](https://github.com/MercedesMV/Danone#usage)⚒
+*[ ✨6. Toma de deciciones](https://github.com/MercedesMV/Danone#toma-de-decisiones)⚒
 
 
 ## Intro
