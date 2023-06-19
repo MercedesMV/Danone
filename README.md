@@ -5,12 +5,12 @@ READ ME
 Danone👩‍💻🔥
 
 ## ÍNDICE
-*✨1. Intro📚
-*✨2. Qué construí⚒
-*✨3. Objetivo del proyecto📈
-*✨4. Background del proyecto📚
-*✨5. Usage⚒
-*✨6. Toma de deciciones⚒
+*[ ✨1. Intro](https://github.com/MercedesMV/Danone/blob/main/README.md#intro)📚
+*[ ✨2. Qué construí] ()⚒
+*[ ✨3. Objetivo del proyecto]()📈
+*[ ✨4. Background del proyecto]()📚
+*[ ✨5. Usage]()⚒
+*[ ✨6. Toma de deciciones]()⚒
 
 
 ## Intro
