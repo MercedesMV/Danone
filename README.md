@@ -20,7 +20,7 @@ HTML 5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los 
 
 ****
 
-##¿Qué Construí?
+## ¿Qué Construí?
 
 En este proyecto me enfoqué en contruir la página principal de DANONE. Contiene las siguientes secciones:
 
@@ -32,12 +32,12 @@ Footer: Sección que incluye hipervínculos al final de la página.
 
 ****
 
-##Objetivo del proyecto
+## Objetivo del proyecto
 Crear una página principal para Danone.
 
 ****
 
-##Background del proyecto
+## Background del proyecto
 En las siguientes secciones se encontraran los elementos utilizados en cada uno.
 Header: Se utilizaron diversas clases para la creación del header, dando como resultado la barra de navegación.
 Body: Se utlizaron diversas clases para el contenido del body, es aquí donde se puede apreciar las diferentes secciones de este.
@@ -45,12 +45,12 @@ Footer: Se utilizaron diversas clases para el footer, en este apartado encontrar
 
 ****
 
-##Usage
+## Usage
 Al inicar la página se presentará una barra de navegación junto con el logo de la marca. debajo de este se podrá visualizar
 las diferentes marcas que contiene Danone. Tambien encontrás interesantes articulos y unas delicias recetas Danone.
 
 ****
 
-##Toma de decisiones. 
+## Toma de decisiones. 
 Se crea una página principal dandole un toque interactivo, que se mostrara en primera parte en forma de carrusel las marcas de danone, activia, oikos, etc
 se presenta articulos interesantes.
